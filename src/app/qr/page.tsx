@@ -4,7 +4,7 @@ import { QRCodeCanvas as QRCode } from 'qrcode.react';
 import Link from 'next/link';
 
 export default function QRPage() {
-  const url = `${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/certificaciones`;
+  const url = `${process.env.NEXT_PUBLIC_SITE_URL || 'https://sanea.vercel.app'}/certificaciones`;
   const qrToken = 'SANEA-CERT-' + Date.now().toString(36).toUpperCase();
 
   return (
