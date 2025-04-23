@@ -18,7 +18,7 @@ const Certificaciones: React.FC = () => {
                     notaFinal: "APROBADO",
                     facilitador: "KEYLER OCTAVIO VILLENA SOTO",
                     fechaVencimiento: "12-04-2026",
-                    certificadoImg: "certificados/1.jpeg"
+                    certificadoImg: "certificados/CerTrabajosenaltura_GarciaCesar10008370_2025.pdf"
                 },
                 {
                     nro: 2,
@@ -27,7 +27,7 @@ const Certificaciones: React.FC = () => {
                     notaFinal: "APROBADO",
                     facilitador: "UBER JHON POLANCO PEZO",
                     fechaVencimiento: "16-04-2026",
-                    certificadoImg: "/certificados/1.jpeg"
+                    certificadoImg: "/certificados/CerMatpel_GarciaCesar10008370_2025.pdf"
                 }
             ]
         },
@@ -43,7 +43,7 @@ const Certificaciones: React.FC = () => {
                     notaFinal: "APROBADO",
                     facilitador: "KEYLER OCTAVIO VILLENA SOTO",
                     fechaVencimiento: "12-04-2026",
-                    certificadoImg: "/certificados/edwin-altura.jpg"
+                    certificadoImg: "/certificados/CerTrabajosenaltura_ChangLionel44296497_2025.pdf"
                 }
             ]
         },
@@ -146,6 +146,74 @@ const Certificaciones: React.FC = () => {
                     facilitador: "UBER JHON POLANCO PEZO",
                     fechaVencimiento: "16-04-2026",
                     certificadoImg: "/certificados/guillermo-matpel.jpg"
+                }
+            ]
+        },
+        {
+            id: 6,
+            nombre: "ARTAZA LANFRANCO VICTOR OSCAR",
+            dni: "43085205",
+            certificados: [
+                {
+                    nro: 1,
+                    curso: "TRABAJOS EN ALTURA",
+                    fecha: "12-04-2025",
+                    notaFinal: "APROBADO",
+                    facilitador: "KEYLER OCTAVIO VILLENA SOTO",
+                    fechaVencimiento: "12-04-2026",
+                    certificadoImg: "/certificados/CerTrabajosenaltura_ArtazaVictor_43085205_2025.pdf"
+                },
+                {
+                    nro: 2,
+                    curso: "ESPACIOS CONFINADOS",
+                    fecha: "14-04-2025",
+                    notaFinal: "APROBADO",
+                    facilitador: "KEYLER OCTAVIO VILLENA SOTO",
+                    fechaVencimiento: "14-04-2026",
+                    certificadoImg: "/certificados/CerTrabajosenespaciosconfinados_ArtazaVictor_43085205.pdf"
+                },
+                {
+                    nro: 3,
+                    curso: "CAPACITACÓN EXTERNA MATPEL",
+                    fecha: "16-04-2025",
+                    notaFinal: "APROBADO",
+                    facilitador: "UBER JHON POLANCO PEZO",
+                    fechaVencimiento: "16-04-2026",
+                    certificadoImg: "/certificados/public/certificados/CerMatpel_ArtazaVictor_43085205_2025.pdf"
+                }
+            ]
+        },
+        {
+            id: 7,
+            nombre: "SANCHEZ ESCALANTE JUAN EMILIO",
+            dni: "70147799",
+            certificados: [
+                {
+                    nro: 1,
+                    curso: "TRABAJOS EN ALTURA",
+                    fecha: "12-04-2025",
+                    notaFinal: "APROBADO",
+                    facilitador: "KEYLER OCTAVIO VILLENA SOTO",
+                    fechaVencimiento: "12-04-2026",
+                    certificadoImg: "/certificados/CerTrabajosenaltura_SanchezJuan_70147799_2025.pdf"
+                },
+                {
+                    nro: 2,
+                    curso: "ESPACIOS CONFINADOS",
+                    fecha: "14-04-2025",
+                    notaFinal: "APROBADO",
+                    facilitador: "KEYLER OCTAVIO VILLENA SOTO",
+                    fechaVencimiento: "14-04-2026",
+                    certificadoImg: "/certificados/Cer_espaciosconfinados_SanchezJuan_70147799_2025.pdf"
+                },
+                {
+                    nro: 3,
+                    curso: "CAPACITACÓN EXTERNA MATPEL",
+                    fecha: "16-04-2025",
+                    notaFinal: "APROBADO",
+                    facilitador: "UBER JHON POLANCO PEZO",
+                    fechaVencimiento: "16-04-2026",
+                    certificadoImg: "/certificados/CerMatpel_SanchezJuan_70147799_2025.pdf"
                 }
             ]
         }
@@ -256,16 +324,18 @@ const Certificaciones: React.FC = () => {
                                                     </span>
                                                 </td>
                                                 <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-                                                    <Link
-                                                        href={`/certificado?img=certificados/${encodeURIComponent(certificado.certificadoImg.split('/').pop() || '')}`}
-                                                        className="text-lime-600 hover:text-lime-800 font-medium hover:underline flex items-center"
-                                                    >
-                                                        <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path>
-                                                        </svg>
-                                                        Ver
-                                                    </Link>
+                                                    <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+                                                        <a
+                                                            href={certificado.certificadoImg}
+                                                            download
+                                                            className="text-lime-600 hover:text-lime-800 font-medium hover:underline flex items-center"
+                                                        >
+                                                            <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+                                                            </svg>
+                                                            Descargar
+                                                        </a>
+                                                    </td>
                                                 </td>
                                             </tr>
                                         ))}
