@@ -49,108 +49,6 @@ const Certificaciones: React.FC = () => {
         },
         {
             id: 3,
-            nombre: "THEXSE VASQUEZ EDWIN ROMAN",
-            dni: "44271780",
-            certificados: [
-                {
-                    nro: 1,
-                    curso: "TRABAJOS EN ALTURA",
-                    fecha: "12-04-2025",
-                    notaFinal: "APROBADO",
-                    facilitador: "KEYLER OCTAVIO VILLENA SOTO",
-                    fechaVencimiento: "12-04-2026",
-                    certificadoImg: "/certificados/edwin-altura.jpg"
-                },
-                {
-                    nro: 2,
-                    curso: "ESPACIOS CONFINADOS",
-                    fecha: "14-04-2025",
-                    notaFinal: "APROBADO",
-                    facilitador: "KEYLER OCTAVIO VILLENA SOTO",
-                    fechaVencimiento: "14-04-2026",
-                    certificadoImg: "/certificados/edwin-espacios.jpg"
-                },
-                {
-                    nro: 3,
-                    curso: "CAPACITACÓN EXTERNA MATPEL",
-                    fecha: "16-04-2025",
-                    notaFinal: "APROBADO",
-                    facilitador: "UBER JHON POLANCO PEZO",
-                    fechaVencimiento: "16-04-2026",
-                    certificadoImg: "/certificados/guillermo-matpel.jpg"
-                }
-            ]
-        },
-        {
-            id: 4,
-            nombre: "THEXSE VASQUEZ JOSE LUIS",
-            dni: "45655374",
-            certificados: [
-                {
-                    nro: 1,
-                    curso: "TRABAJOS EN ALTURA",
-                    fecha: "12-04-2025",
-                    notaFinal: "APROBADO",
-                    facilitador: "KEYLER OCTAVIO VILLENA SOTO",
-                    fechaVencimiento: "12-04-2026",
-                    certificadoImg: "/certificados/edwin-altura.jpg"
-                },
-                {
-                    nro: 2,
-                    curso: "ESPACIOS CONFINADOS",
-                    fecha: "14-04-2025",
-                    notaFinal: "APROBADO",
-                    facilitador: "KEYLER OCTAVIO VILLENA SOTO",
-                    fechaVencimiento: "14-04-2026",
-                    certificadoImg: "/certificados/edwin-espacios.jpg"
-                },
-                {
-                    nro: 3,
-                    curso: "CAPACITACÓN EXTERNA MATPEL",
-                    fecha: "16-04-2025",
-                    notaFinal: "APROBADO",
-                    facilitador: "UBER JHON POLANCO PEZO",
-                    fechaVencimiento: "16-04-2026",
-                    certificadoImg: "/certificados/guillermo-matpel.jpg"
-                }
-            ]
-        },
-        {
-            id: 5,
-            nombre: "VARGAS CONDORI ROMULO WALTHER",
-            dni: "29652068",
-            certificados: [
-                {
-                    nro: 1,
-                    curso: "TRABAJOS EN ALTURA",
-                    fecha: "12-04-2025",
-                    notaFinal: "APROBADO",
-                    facilitador: "KEYLER OCTAVIO VILLENA SOTO",
-                    fechaVencimiento: "12-04-2026",
-                    certificadoImg: "/certificados/edwin-altura.jpg"
-                },
-                {
-                    nro: 2,
-                    curso: "ESPACIOS CONFINADOS",
-                    fecha: "14-04-2025",
-                    notaFinal: "APROBADO",
-                    facilitador: "KEYLER OCTAVIO VILLENA SOTO",
-                    fechaVencimiento: "14-04-2026",
-                    certificadoImg: "/certificados/edwin-espacios.jpg"
-                },
-                {
-                    nro: 3,
-                    curso: "CAPACITACÓN EXTERNA MATPEL",
-                    fecha: "16-04-2025",
-                    notaFinal: "APROBADO",
-                    facilitador: "UBER JHON POLANCO PEZO",
-                    fechaVencimiento: "16-04-2026",
-                    certificadoImg: "/certificados/guillermo-matpel.jpg"
-                }
-            ]
-        },
-        {
-            id: 6,
             nombre: "ARTAZA LANFRANCO VICTOR OSCAR",
             dni: "43085205",
             certificados: [
@@ -184,7 +82,7 @@ const Certificaciones: React.FC = () => {
             ]
         },
         {
-            id: 7,
+            id: 4,
             nombre: "SANCHEZ ESCALANTE JUAN EMILIO",
             dni: "70147799",
             certificados: [
